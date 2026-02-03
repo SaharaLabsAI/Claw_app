@@ -1,6 +1,6 @@
 # ClawApp - OpenClaw Universal Hub Desktop
 
-ClawApp is an open-source desktop application by **Sahara AI** that makes it easier to install, configure, and operate OpenClaw agents locally—without relying on scripts, complex CLI setups, or external orchestration services.
+ClawApp is an open-source desktop application by Sahara AI that makes it easier to install, configure, and operate OpenClaw agents locally—without relying on scripts, complex CLI setups, or external orchestration services. 
 
 If you like OpenClaw's execution model but want a safer, more approachable way to run agents day-to-day, ClawApp exists for you.
 
@@ -19,38 +19,38 @@ If you like OpenClaw's execution model but want a safer, more approachable way t
 ClawApp does not extend or modify OpenClaw itself. It focuses on making OpenClaw easier to run, easier to manage, and harder to misconfigure.
 
 ## Platform Support
-* **macOS** (Apple Silicon & Intel) - **Currently Supported**
-* Windows - *Planned*
+* macOS (Apple Silicon & Intel) - **Supported**
+* Windows - **Planned**
 
 ## Quick Start
-1. Download the macOS installer from [https://clawapp.saharaai.com](https://clawapp.saharaai.com).
+1. Download the macOS installer from 👉 [https://clawapp.saharaai.com](https://clawapp.saharaai.com)
 2. Launch the app and sign in using your preferred credentials (Google Login supported).
 3. Start interacting with your local OpenClaw agent through the built-in chat interface.
 
-**No external services, API keys, or manual configuration required.**
+No external services, API keys, or manual configuration required.
 
-## What You Can Do with ClawApp
+## What you can do with ClawApp
 
-With ClawApp, OpenClaw agents execute locally with access to explicitly enabled system resources, application integrations, and live crypto market data (through early native integration with **HeySorin.AI**). 
+With ClawApp, OpenClaw agents execute locally with access to explicitly enabled system resources, application integrations, and live crypto market data (through early native integration with HeySorin.AI). Agent behavior is driven by natural-language instructions and constrained by the tools and permissions configured at runtime.
 
-### Currently Supported Workflows:
+### Currently Supported Workflows
 
-#### 1. Local Automation
+**Local Automation**
 * Run OpenClaw agents against local system resources.
 * Execute any OpenClaw-compatible actions.
 * Manage workflows that would otherwise require scripts or CLI configuration.
 
-#### 2. Messaging-Based Agent Interaction
-Run agents inside supported messaging platforms to post updates or respond to messages.
-* **Supported:** Moltbook, Telegram.
+**Messaging-Based Agent Interaction**
+Run agents inside supported messaging platforms to post updates, respond to messages, or trigger simple workflows.
+* **Currently supported:** Moltbook, Telegram.
 * **Planned:** Slack, Discord, WhatsApp, Reddit.
 
-#### 3. Crypto Market Research & Analysis
-* Pull live crypto market data via early native integration with **HeySorin.AI**.
+**Crypto Market Research & Analysis**
+* Pull live crypto market data via early native integration with HeySorin.AI.
 * Generate structured summaries and market overviews.
 * Interpret price action and on-chain signals.
 
-**Example Prompts:**
+### Example Prompts
 * "Summarize my last five unread emails and highlight action items."
 * "Create a new note called 'Today's Tasks' and list my top three priorities."
 * "Post an update on Moltbook that I'm online and open to collaboration."
@@ -70,14 +70,14 @@ ClawApp includes a simple usage-based model to cover the cost of running agents 
 * Usage is transparent and tied to actual agent activity.
 * Top-ups are handled directly in the app.
 
-Internally, ClawApp uses **USD1** as a settlement rail to keep accounting consistent. This is fully abstracted so users do not need to manage wallets or tokens to get started. 
+Internally, ClawApp uses **USD1** as a settlement rail to keep accounting consistent. This is fully abstracted so users do not need to manage wallets or tokens to get started. Over time, this foundation enables more advanced workflows such as agent-to-agent payments and paying for external tools using the **x402** standard. 
 
 ## Agent Identity & Payments (Optional)
 
-ClawApp is compatible with emerging agent-native standards for the agentic economy:
+ClawApp is designed to be compatible with emerging agent-native standards:
 
-* **Agent Identity (ERC-8004):** Each agent is associated with a persistent Agent ID, enabling stable identity and state across runs. This treats agents as long-lived actors rather than disposable processes.
-* **Agent-Native Payments (x402):** Enables agents to pay for data, compute, or services programmatically. It supports agent-to-agent and agent-to-service transactions, decoupling execution logic from user-managed payment flows.
+* **Agent Identity (ERC-8004):** Each agent is associated with a persistent Agent ID. This enables stable identity, attribution, and state across runs, treating agents as long-lived actors rather than disposable processes.
+* **Agent-Native Payments (x402):** Enables agents to pay for data, compute, or services programmatically. This supports agent-to-agent and agent-to-service transactions, decoupling execution logic from user-managed payment flows.
 
 ## Open Source Status
 ClawApp is open source and under active development.
@@ -85,14 +85,14 @@ ClawApp is open source and under active development.
 * Contributions, issues, and feedback are welcome. Expect rapid iteration and evolving capabilities.
 
 ## About Sahara AI
-Sahara AI is the agentic AI company, dedicated to making AI more accessible and equitable to all. Our full-stack AI platform consists of a Data Services Platform for data labeling, an AI Developer Platform and Marketplace for agent creation, and agentic protocols for value attribution.
+Sahara AI is the agentic AI company, dedicated to making AI more accessible and equitable to all. Our full-stack AI platform consists of a Data Services Platform for data labeling and refinement, an AI Developer Platform and Marketplace for agent creation, deployment, and monetization, and agentic protocols for value attribution and distribution.
 
-For more information, visit [SaharaAI.com](https://SaharaAI.com).
+Our solutions already power AI agents and high-quality data for consumers, Fortune 500 enterprises, and leading research labs, such as Microsoft, Amazon, MIT, Motherson, and Snap. For more information, visit [SaharaAI.com](https://SaharaAI.com).
 
 ## Links and Community
 * **Website:** [https://clawapp.saharaai.com](https://clawapp.saharaai.com)
 * **Discord:** [https://discord.gg/9KNneD5c](https://discord.gg/9KNneD5c)
-* **Feedback:** Use the `#feedback` channel in Discord or open a GitHub issue.
+* **Feedback:** Use the #feedback channel in Discord or open a GitHub issue.
 
 ---
 
