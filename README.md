@@ -79,11 +79,6 @@ ClawApp is designed to be compatible with emerging agent-native standards:
 * **Agent Identity (ERC-8004):** Each agent is associated with a persistent Agent ID. This enables stable identity, attribution, and state across runs, treating agents as long-lived actors rather than disposable processes.
 * **Agent-Native Payments (x402):** Enables agents to pay for data, compute, or services programmatically. This supports agent-to-agent and agent-to-service transactions, decoupling execution logic from user-managed payment flows.
 
-## Open Source Status
-ClawApp is open source and under active development.
-* **License:** (To be specified)
-* Contributions, issues, and feedback are welcome. Expect rapid iteration and evolving capabilities.
-
 ## About Sahara AI
 Sahara AI is the agentic AI company, dedicated to making AI more accessible and equitable to all. Our full-stack AI platform consists of a Data Services Platform for data labeling and refinement, an AI Developer Platform and Marketplace for agent creation, deployment, and monetization, and agentic protocols for value attribution and distribution.
 
